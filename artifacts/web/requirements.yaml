@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For elegant page transitions, scroll reveals, and micro-interactions fitting the premium aesthetic"
+  "date-fns": "For robust and clean date formatting"
+  "lucide-react": "For crisp, modern icons"
+
+images:
+  - path: "artifacts/web/public/images/art-deco-bg.png"
+    description: "Dark, moody art deco geometric pattern background with very subtle, thin gold lines. Seamless texture, minimalist, high-end luxury feel, dark charcoal base, symmetrical."
+    aspect_ratio: "16:9"
+  - path: "artifacts/web/public/images/bitcoin-deco-logo.png"
+    description: "A highly stylized, minimalist art deco interpretation of the Bitcoin logo. Pure gold lines on a transparent background, geometric, elegant, symmetrical, premium luxury aesthetic."
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated TanStack Query hooks directly from @workspace/api-client-react.
+  - The entire application is a single-page scrolling experience, so navigation uses anchor links.
+  - Defaulting to a forced dark mode to preserve the intended Art Deco gold/charcoal aesthetic.
